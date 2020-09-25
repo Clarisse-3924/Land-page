@@ -1,0 +1,127 @@
+
+#Home{
+    background-image:url("a.jpg");
+    background-repeat: no-repeat;
+width: auto;
+height: 100;
+font-family: 'Times New Roman', Times, serif;
+} 
+table{
+    justify-content:space-around;
+    display:flex;
+    float: right;
+    font-size:25px;
+    position:fixed;
+    margin-left:500px;
+    margin-top:-10px;
+}
+a{
+    text-decoration:none;
+
+}
+.b{
+    display: flex;
+  padding:20px;
+  margin-top:0px;
+  flex-direction:column;
+   justify-content:space-around;
+   margin-left:400px ;
+   text-align:center;
+}
+.size {
+    font-size:40px;
+  color: goldenrod;  
+}
+#w{font-size:20px;
+}
+.flex{
+    display: flex;
+  position:static;
+  
+  background-color:lightgrey;
+  color:black;
+  padding:20px;
+  margin-top:0px;
+  flex-direction:row;
+   justify-content:space-around;
+   border-radius:20px;}
+
+   .d{ display: flex;
+    position:static;
+    border:1px solid black;
+    background-color:grey;
+    color:white;
+    padding:20px;
+    margin-top:0px;
+    flex-direction:row;
+     justify-content:space-around;
+     border-radius:20px;
+    }
+   span{color:goldenrod;
+}
+#l{color:goldenrod;
+font-size: 30px;}
+#projects{display: flex;
+    position:static;
+    border:2px solid black;
+    background-color:lightgrey;
+    color:black;
+    padding:20px;
+    margin-top:0px;
+    flex-direction:row;
+     justify-content:space-around;
+     border-radius:20px;}
+     #Contact{
+        display: flex;
+        position:static;
+        border:10px solid black;
+        background-color:grey;
+        color:white;
+        padding:20px;
+        margin-top:0px;
+        flex-direction:row;
+         justify-content:space-around;
+         border-radius:20px;
+     }
+    #Hobbies{
+        display: flex;
+        position:static;
+    
+        background-color:grey;
+        color:white;
+        padding:20px;
+        margin-top:0px;
+        flex-direction:row;
+         justify-content:space-around;
+         border-radius:20px;
+    }
+    @media only screen and (min-width: 768px) {
+        /* For desktop: */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+      }
+      [class*="col-"] {
+        width: 100%;
+      }
+      a:hover {
+        background-color:goldenrod;
+      }
+      #Contact:hover {opacity: 9;
+        background-color: blue;
+    }
+    .d:hover { 
+        opacity: 9;
+        background-color: blue;
+          }
+          
+    
