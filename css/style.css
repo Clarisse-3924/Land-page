@@ -32,8 +32,7 @@ a{
     font-size:40px;
   color: goldenrod;  
 }
-#w{font-size:20px;
-}
+
 .flex{
     display: flex;
   position:static;
