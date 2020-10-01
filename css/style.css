@@ -57,7 +57,8 @@ a{
      justify-content:space-around;
      border-radius:20px;
     }
-   
+   span{color:goldenrod;
+}
 #l{color:goldenrod;
 font-size: 30px;}
 #projects{display: flex;
